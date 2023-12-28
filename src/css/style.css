@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: rgb(0, 132, 255);
+    max-width: 1190px;
+    height: 50vh;
+    padding: 0 10px;
+    margin: 0 auto;
+}
+
+/*Header*/
+
+.header .titulo {
+    text-align: center;
+    margin: 20px;
+    color: white;
+}
+
+/*Background Container*/
+
+.background-container {
+    background-color: #ffff;
+    margin: 0 auto;
+    max-width: 500px;
+    border-radius: 15px;
+    box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.2);
+    padding: 15px;
+}
+
+.background-container .formulario {
+    gap: 15px;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: space-around;
+}
+
+
+.background-container .formulario .btn-verificar {
+    width: 80px;
+}
+
+.background-container .img-pessoa {
+    background-size: cover;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin: 0 auto;
+    position: relative;
+    display: none;
+}
+
+.background-container .img-pessoa img {
+    position: absolute;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+}
+
+/*Footer*/
+
+.footer {
+    text-align: center;
+    margin: 20px;
+}
+
+.footer .marca-registrada {
+    color: white;
+}

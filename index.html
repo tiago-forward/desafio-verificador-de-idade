@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="src/css/style.css">
+    <title>Exercício Hora do Dia!</title>
+</head>
+
+<body>
+    <header class="header">
+        <h1 class="titulo">Verificador de Idade</h1>
+    </header>
+    <section class="background-container">
+        <form class="formulario">
+
+            <div>
+                <label for="ano-nascimento">Ano de Nascimento:</label>
+                <input type="number" name="ano" id="ano-nascimento">
+            </div>
+
+            <div>
+                <input type="radio" name="sexo" value="masculino" id="sexo-masculino">
+                <label for="sexo-masculino">Masculino</label>
+
+                <input type="radio" name="sexo" value="feminino" id="sexo-feminino">
+                <label for="sexo-feminino">Feminino</label>
+            </div>
+
+            <div>
+                <input type="button" value="Verificar" class="btn-verificar" id="btn-verificar">
+            </div>
+
+            <div class="descricao-container" id="descricao-container">
+                <p id="descricao">Preencha os dados acima para ver o resultado!</p>
+            </div>
+        </form>
+        <div class="img-pessoa" id="img-pessoa">
+
+        </div>
+    </section>
+    <footer class="footer">
+        <p class="marca-registrada">© CursoemVideo - TiagoForward</p>
+    </footer>
+
+    <script src="src/js/index.js"></script>
+</body>
+
+</html>
